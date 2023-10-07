@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Module3 Solution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;0,900;1,400;1,700;1,900&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header-nav">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Food, LLC</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  <div>
+                    <svg fill="#800000" width="20px" height="20px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>chicken-leg</title> <path d="M19.422 3.203c0.506 0.087 1.003 0.301 1.47 0.669 2.133 1.679 0.83 3.394-0.822 3.002 2.22 2.456 0.061 4.345-2.307 3.096 0.627 1.64-1.398 2.592-3.128 0.948l0-0c-0.091-0.086-0.174-0.176-0.251-0.268-1.329 2.796-1.624 4.75-1.676 6.348-0.024 0.73 0.060 1.182 0.209 1.471-2.697 2.594-6.83 5.671-8.465 6.28-1.603 0.597-2.178 0.059-3.068 1.142-0.846 1.007 0.768 3.312 2.576 2.045-1.648 2.58 1.643 4.62 2.645 1.003 0.831-3.101 5.187-6.721 8.281-9.321 0.020 0.037 0.038 0.075 0.056 0.117 2.382 0.136 6.19 0.317 11.33-2.339 10.817-5.591 2.445-23.118-6.852-14.192zM3.962 27.935v0 0 0zM28.71 5.63c1.601 3.23 0.438 5.9-3.983 7.876 2.206-2.375 4.043-4.932 3.983-7.876zM17.534 18.040c4.062-1.415 8.348-3.669 11.892-6.234-2.392 3.264-6.321 6.378-11.892 6.234z"></path> </g></svg>
+                    <span>Chicken</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div>
+                    <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#800000;} </style> <g> <path class="st0" d="M511.628,221.638c-3.082-28.334-16.909-54.457-42.367-71.738c-83.741-56.824-149.53-8.981-203.356-20.933 c-53.836-11.969-105.512-44.336-137.568-53.836C59.458,54.725-7.219,110.469,0.639,181.128v46.21 c-2.142,18.792,0.993,39.284,11.063,60.123c48.852,101.203,241.354,163.001,361.858,152.516 c85.719-7.444,134.278-69.484,138.441-128.915C512,311.062,511.871,220.714,511.628,221.638z M482.207,258.306 c-9.845,37.799-44.173,80.27-110.979,86.082c-8.014,0.7-16.573,1.053-25.407,1.053c-57.402,0-126.446-14.785-184.703-39.544 c-62.817-26.702-107.274-61.824-125.176-98.914c-12.694-26.288-12.056-52.93,1.805-75.003 c13.239-21.088,36.832-34.189,61.557-34.189c7.133,0,14.327,1.054,21.382,3.144c10.657,3.16,25.839,10.208,41.919,17.677 c27.557,12.79,61.84,28.714,97.455,36.624c8.022,1.779,16.425,2.643,25.7,2.643c15.173,0,30.597-2.384,45.52-4.707 c15.363-2.374,31.254-4.836,47.324-4.836c27.574,0,51.582,7.565,75.537,23.827C485.782,193.632,489.383,230.74,482.207,258.306z"></path> <path class="st0" d="M285.759,185.394c-11.494,0-22.021-1.096-32.185-3.36c-4.214-0.933-8.377-1.977-12.514-3.092l-83.966,89.924 c5.104,2.426,10.311,4.82,15.726,7.116c11.34,4.819,23.118,9.206,35.131,13.179l97.852-104.796 C299.214,184.997,292.504,185.394,285.759,185.394z"></path> <path class="st0" d="M437.758,194.815L327.772,312.607c6.123,0.337,12.159,0.527,18.049,0.527c7.953,0,15.631-0.311,22.816-0.933 c64.561-5.622,81.099-50.278,84.622-63.828C455.488,239.842,460.884,210.895,437.758,194.815z"></path> <path class="st0" d="M163.364,149.503l-72.187,77.308c11.373,10.156,25.295,20,41.365,29.241l80.296-86.004 C195.135,163.709,178.485,156.429,163.364,149.503z"></path> <path class="st0" d="M378.602,175.842c-10.034,0-20.242,1.166-30.838,2.695L236.509,297.694 c19.275,5.121,38.766,9.059,57.765,11.676l119.001-127.456C402.308,177.829,391.047,175.842,378.602,175.842z"></path> <path class="st0" d="M112.197,127.223c-4.301-1.278-8.645-1.926-12.893-1.926c-14.526,0-28.412,7.738-36.228,20.191 c-10.492,16.71-5.907,34.292-0.208,46.089c2.54,5.268,5.898,10.536,9.948,15.794l65.02-69.647 C127.716,133.113,118.32,129.036,112.197,127.223z"></path> </g> </g></svg>
+                    <span>Beef</span>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div>
+                    <svg height="20px" width="20px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#800000;} </style> <g> <path class="st0" d="M8.712,409.016l494.592-0.63c4.805,0,8.679-3.89,8.679-8.679v-18.086c0-2.353-0.948-4.61-2.648-6.244 c-1.7-1.643-3.988-2.516-6.325-2.435L8.385,390.072C3.711,390.244,0,394.077,0,398.751v1.578c0,2.312,0.932,4.519,2.55,6.146 C4.184,408.109,6.391,409.016,8.712,409.016z"></path> <path class="st0" d="M503.321,427.191L8.712,426.562c-2.304,0-4.511,0.916-6.146,2.542c-1.634,1.634-2.55,3.84-2.55,6.153v1.569 c0,4.675,3.71,8.516,8.384,8.679l494.61,17.129c2.353,0.082,4.642-0.792,6.342-2.427c1.683-1.643,2.648-3.89,2.648-6.252v-18.078 C512,431.082,508.11,427.191,503.321,427.191z"></path> <path class="st0" d="M95.928,217.897c2.419,2.312,5.149,4.078,8.075,5.296c1.389-2.811,2.991-5.737,4.821-8.908 c3.793-7.078,22.279-37.748,66.638-56.226c12.847-5.361,28.865-12.218,44.9-19.074c47.448-20.276,67.569-28.734,75.529-30.794 c11.8-3.049,24.042-4.593,36.432-4.593c0.85,0,1.65,0.024,2.468,0.033l-0.49-0.532l-44.425-42.668 c-7.093-6.8-14.22-8.336-26.527-9.856c0,0-19.467-3.906-43.494,2.289c-9.48,2.46-74.384,30.998-111.586,46.492 c-37.2,15.512-50.129,41.598-50.129,41.598c-6.44,11.098-7.715,15.234-7.993,22.728c-0.278,7.51,1.16,11.375,6.571,16.573 L95.928,217.897z"></path> <path class="st0" d="M297.982,122.59c-10.33,2.664-80.924,33.719-121.393,50.571c-40.469,16.859-54.526,45.242-54.526,45.242 c-7.012,12.079-8.401,16.566-8.696,24.722c-0.294,8.164,1.259,12.381,7.142,18.028l42.66,40.952 c10.526,10.092,26.936,10.697,38.181,1.381c0,0,0.228-0.4,0.621-0.997c3.22,2.958,6.326,5.81,9.154,8.368 c3.824,3.465,7.191,6.472,9.872,8.794c1.34,1.152,2.517,2.149,3.515,2.95c1.046,0.834,1.798,1.438,2.811,2.076 c2.435,1.504,5.819,3.784,10.101,5.713c4.266,1.928,9.529,3.522,15.593,3.514c4.789,0.008,9.987-0.989,15.364-3.285l0.065-0.033 l88.425-40.052c5.802-2.452,10.509-4.748,14.448-7.331c2.975-1.953,5.558-4.095,7.682-6.612c3.204-3.775,5.067-8.295,5.949-12.888 c0.883-4.634,1.014-9.414,1.03-15.021c0-3.49-0.065-7.298-0.082-11.556l-0.163-34.495c10.771-2.142,27.541-0.752,27.541-0.752 c5.704-0.302,10.69-3.972,12.683-9.317c1.994-5.352,0.622-11.384-3.514-15.348l-48.315-46.386 c-7.715-7.413-15.462-9.08-28.849-10.738C345.283,120.09,324.101,115.84,297.982,122.59z M370.602,208.057l0.13,29.134 c0,4.364,0.065,8.19,0.065,11.491c0.017,4.723-0.13,8.41-0.556,11.123c-0.343,2.051-0.784,3.522-1.372,4.74 c-0.9,1.782-2.092,3.285-4.887,5.304c-2.762,1.962-7.045,4.208-13.19,6.782l-0.082,0.041l-88.31,39.987 c-3.645,1.536-6.669,2.06-9.382,2.068c-3.432,0-6.44-0.858-9.365-2.174c-2.926-1.307-5.623-3.064-8.288-4.74 c-0.081-0.048-0.751-0.539-1.602-1.242c-3.269-2.68-9.758-8.483-17.439-15.487c-1.618-1.496-3.4-3.147-5.132-4.732 c9.463-10.96,25.841-26.323,49.704-36.269C293.683,240.42,346.412,217.897,370.602,208.057z"></path> </g> </g></svg>
+                    <span>Sushi</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>Our Menu</h1>
+      <div class="col-xs-12">
+        <h3>Chicken</h3>
+        <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin      literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+        </p>
+        <br/>
+        <p>
+        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham</p>
+        </div>
+      </div>   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
